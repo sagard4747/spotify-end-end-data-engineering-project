@@ -1,12 +1,12 @@
 # Spotify End-To-End ETL Data Engineering Project
 
-###Introduction
+### Introduction
 In this project we will build and ETL(Extract, Trnsform, Load)Pipeline using the Spotify API on AWS. The pipeline will retrive data from the spotify API, transform it accroding to the required format, and load it into the AWS data store
 
-###About Dataset/API
+### About Dataset/API
 This API contains information about music artist, albums and songs - (https://developer.spotify.com/documentation/)
 
-Services Used
+### Services Used
 1. **S3 (Simple Storage Service):** Amazon S3 (Simple Storage Service) is a highly sclabale object storage service that can store and retrive any amount of data from anywhere on web. It is commonly used to store and distribute large media files, data backups, static web files.
 
 2. **AWS Lambda:** AWS Lambda is a Serverless computing service that lets you run your code without managing servers. You can use Lambda to run code in response to events like changes in S3, DynamoDB, or other AWS Services.
